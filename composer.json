@@ -1,0 +1,27 @@
+{
+    "name": "digital-holding/phpunit-entity-testcase",
+    "type": "library",
+    "keywords": ["phpunit", "test", "testcase", "tests"],
+    "description": "PHPUnit abstract test case for testing entities.",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2",
+        "phpunit/phpunit": "^8.5"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "DH\\UnitTests\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\DH\\UnitTest\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
