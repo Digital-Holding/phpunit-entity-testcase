@@ -1,6 +1,7 @@
 /vendor/
 /node_modules/
 /composer.lock
+/report
 
 /etc/build/*
 !/etc/build/.gitignore

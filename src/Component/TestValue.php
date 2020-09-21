@@ -1,7 +1,13 @@
 <?php
 
+declare(strict_types=1);
+
 namespace DH\UnitTests\Component;
 
+/**
+ * Simple TestValue structure which holds input and expected values for a test
+ * case.
+ */
 class TestValue
 {
     /**
